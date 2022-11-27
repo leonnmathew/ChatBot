@@ -1,6 +1,8 @@
 from tkinter import *
 from chat import get_response, bot_name
 import pyttsx3 as pp
+import speech_recognition as sr
+import threading
 
 BG_GRAY = "#ABB2B9"
 BG_COLOR = "#17202A"
@@ -21,8 +23,30 @@ class ChatApplication:
         self.engine.say(word)
         self.engine.runAndWait()
     
+    def takeQuery(self):
+        self.speech=sr.Recognizer()
+        self.speech.pause_threshold =1
+        print("your bot is listening try to speak")
+        with sr.Microphone() as m:
+            try:
+                audio = self.speech.listen(m)
+                query = self.speech.recognize_google(audio, language='eng-in')
+                self.msg_entry.delete(0, END)
+                self.msg_entry.insert(0,query)
+                self._insert_message(query, "You")
+            except Exception as e:
+                print(e)
+                print("Not Recognised")
+
+
     def run(self):
+        t = threading.Thread(target=self.repeatL)
+        t.start()
         self.window.mainloop()
+
+    def repeatL(self):
+            while True:
+                self.takeQuery()
 
     def _setup_main_window(self):
         self.window.title("Chat")
