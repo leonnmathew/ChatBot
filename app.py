@@ -1,5 +1,6 @@
 from tkinter import *
 from chat import get_response, bot_name
+import pyttsx3 as pp
 
 BG_GRAY = "#ABB2B9"
 BG_COLOR = "#17202A"
@@ -12,6 +13,13 @@ class ChatApplication:
     def __init__(self):
         self.window = Tk()
         self._setup_main_window()
+        self.engine = pp.init()
+        self.voices = self.engine.getProperty('voices')
+        self.engine.setProperty('voice',self.voices[1].id)
+
+    def speak(self,word):
+        self.engine.say(word)
+        self.engine.runAndWait()
     
     def run(self):
         self.window.mainloop()
@@ -66,6 +74,7 @@ class ChatApplication:
         self.text_widget.configure(state=DISABLED)
 
         msg2 = f"{bot_name}: {get_response(msg)}\n\n"
+        self.speak(get_response(msg))
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
