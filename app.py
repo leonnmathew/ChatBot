@@ -40,13 +40,19 @@ class ChatApplication:
 
 
     def run(self):
-        t = threading.Thread(target=self.repeatL)
+        self.stop_threads = False
+        t = threading.Thread(target=self.repeatL, args = (lambda : self.stop_threads,))
         t.start()
         self.window.mainloop()
+        self.stop_threads = True
+        t.join()
+        
 
-    def repeatL(self):
+    def repeatL(self,stop):
             while True:
                 self.takeQuery()
+                if stop():
+                    break
 
     def _setup_main_window(self):
         self.window.title("Chat")
@@ -86,6 +92,8 @@ class ChatApplication:
     def _on_enter_pressed(self, event):
         msg = self.msg_entry.get()
         self._insert_message(msg, "You")
+        
+
 
     def _insert_message(self, msg, sender):
         if not msg:
@@ -97,13 +105,16 @@ class ChatApplication:
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
 
-        msg2 = f"{bot_name}: {get_response(msg)}\n\n"
-        self.speak(get_response(msg))
+        self.message = get_response(msg)
+        msg2 = f"{bot_name}: {self.message}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
 
+        self.speak(self.message)
+
         self.text_widget.see(END)
+
 
 if __name__ == "__main__":
     app = ChatApplication()
