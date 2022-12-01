@@ -3,6 +3,7 @@ from chat import get_response, bot_name
 import pyttsx3 as pp
 import speech_recognition as sr
 import threading
+import time
 
 BG_GRAY = "#ABB2B9"
 BG_COLOR = "#17202A"
@@ -33,7 +34,7 @@ class ChatApplication:
                 query = self.speech.recognize_google(audio, language='eng-in')
                 self.msg_entry.delete(0, END)
                 self.msg_entry.insert(0,query)
-                self._insert_message(query, "You")
+                self._insert_user_message(query, "You")
             except Exception as e:
                 print(e)
                 print("Not Recognised")
@@ -91,11 +92,10 @@ class ChatApplication:
         
     def _on_enter_pressed(self, event):
         msg = self.msg_entry.get()
-        self._insert_message(msg, "You")
-        
+        self._insert_user_message(msg, "You")
+        self._insert_bot_message(msg)
 
-
-    def _insert_message(self, msg, sender):
+    def _insert_user_message(self, msg, sender):
         if not msg:
             return
         
@@ -104,16 +104,21 @@ class ChatApplication:
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg1)
         self.text_widget.configure(state=DISABLED)
+        self.text_widget.see(END)
 
+    def _insert_bot_message(self,msg):
         self.message = get_response(msg)
         msg2 = f"{bot_name}: {self.message}\n\n"
         self.text_widget.configure(state=NORMAL)
         self.text_widget.insert(END, msg2)
         self.text_widget.configure(state=DISABLED)
-
-        self.speak(self.message)
-
         self.text_widget.see(END)
+
+        # self.speak(self.message)
+        time.sleep(0)
+        t1 = threading.Thread(target=self.speak, args=(self.message,))
+        t1.start()
+
 
 
 if __name__ == "__main__":
