@@ -60,7 +60,7 @@
               "How do I fix my anxiety?"
           ],
           "responses": [
-              "I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+              "Talking about anxiety, Anxiety is a feeling of dread or trepidation about what is ahead. Most people experience anxiety from time to time, but it only becomes a problem when it significantly interferes with your everyday life. The best thing you can do to ease anxiety is to take a few deep breaths and express your feelings to someone."
           ]
       },
       {
@@ -74,7 +74,7 @@
               "How do I fix my depression?"
           ],
           "responses": [
-              "I see that you want to learn more about depression, and how to support yourself or your loved ones. At the higest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid."
+              "You seem interested in finding out more about depression and how you might help yourself or a loved one. At its most severe, depression is a mood illness that results in a lingering sense of melancholy and disinterest. Speaking with a therapist or psychiatrist who can assist you in determining the best course of action for you is the best advised kind of treatment. You can attempt natural therapies like as obtaining adequate sleep, meditating, exercising frequently, maintaining an active lifestyle, eating a good diet, and abstaining from alcohol."
           ]
       },
       {
@@ -88,7 +88,7 @@
               "How do I fix my schizophrenia?"
           ],
           "responses": [
-              "I see that you want to learn more about schizophrenia, and how to support yourself or your loved ones. Schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in hallucinations, delusions, and extremely disordered thinking and behavior. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop."
+              "You seem interested in learning more about schizophrenia and how you might help yourself or a loved one. Schizophrenia is a severe mental illness in which reality is perceived by sufferers strangely. Hallucinations, delusions, and incredibly abnormal thought and behaviour can all be symptoms of schizophrenia. Early intervention may aid in controlling symptoms before grave problems arise."
           ]
       },
       {
@@ -100,7 +100,7 @@
 
           ],
           "responses": [
-              "Mental illness is a wide range of disorders that affect your mood, thinking and behavior. Examples include depression, anxiety disorders, schizophrenia, eating disorders and addictive behaviors. Symptoms can be managed with medications and talk therapy (psychotherapy). A mental illness can make you miserable and can cause problems in your daily life."
+              "There are numerous conditions that can lead to mental illness and affect your emotions, thoughts, and behaviour. Eating disorders, addiction, schizophrenia, anxiety disorders, and depression are a few examples. If you have a mental illness, your daily life may become challenging and miserable. Talk therapy and drugs work together to reduce symptoms."
           ]
       },
       {
@@ -111,7 +111,7 @@
 
           ],
           "responses": [
-              "Mental illness symptoms can affect emotions, thoughts, and behaviors. Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other factors. \nExamples of signs and symptoms include Confused thinking or reduced ability to concentrate, Extreme mood changes of highs and lows, Major changes in eating habits, and Excessive anger, hostility, or violence.\n"
+              "The signs and symptoms of mental illness can be very different depending on the person and the nature of the problem. Examples of symptoms and indicators are as follows. unclear thinking or a diminished capacity to focus. extreme highs and lows in mood. significant changes in eating patterns, and excessive rage, hatred, or violence.\n"
           ]
       },
       {
@@ -122,7 +122,7 @@
 
           ],
           "responses": [
-              "If you have any signs or symptoms of a mental illness, see your primary care provider or a mental health professional. Most mental illnesses don't improve on their own, and if untreated, a mental illness may get worse over time and cause serious problems.\n"
+              "Most mental illnesses don't improve on their own, and if untreated, a mental illness may get worse over time and cause serious problems. If you have any signs or symptoms of a  mental illness, see your primary care provider or a mental health professional.\n"
           ]
       },
       {
@@ -134,8 +134,8 @@
 
           ],
           "responses": [
-              "Suicidal thoughts and behavior are common with some mental illnesses. In the U.S., call the National Suicide Prevention Lifeline at 1-800-273-8255 or use its webchat at http://www.suicidepreventionlifeline.org/.\n",
-              "If you or someone you know is thinking about hurting themselves, please call the National Suicide Prevention Lifeline at 800.273.8255. This national network of local crisis centers provides free, private emotional support to people in suicidal crisis or emotional distress 24 hours a day, seven days a week."
+              "Right now, you may feel as if you have no way to escape the pain and unhappiness you feel. Remember, though, that nothing is permanent, not even the worst distress. Time, support from loved ones, and professional help can make the future seem much brighter. ",
+              "Opening up to someone you trust is always a good first step. Sharing thoughts of suicide can help you realize you’re not alone, but knowing you have the support of someone you love can also make it easier to explore options for professional treatment."
           ]
       },
       {
@@ -149,7 +149,8 @@
 
           ],
           "responses": [
-              "Stress, the death of a loved one, upsetting events (trauma), isolation and lack of support can cause depression. Abnormalities in brain chemical levels may lead to depression. Some medications have depression as a side effect. Recreational drugs and alcohol can also cause depression or make it worse.\n"
+              "Your emotions, intellect, and body can all be impacted by depression. Feeling extremely depressed, helpless, or anxious; not taking pleasure in activities that once brought you delight; and experiencing a lack of energy. Being easily aggravated or agitated, overeating or undereating, etc.\n",
+              "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. It affects how you feel, think and behave and can lead to a variety of emotional and physical problems."
           ]
       },
       {
@@ -161,7 +162,7 @@
 
           ],
           "responses": [
-              "Depression can be serious, but it's also treatable. Regular exercise, getting enough sleep and spending time with friends and family can help. Antidepressants can help change brain chemistry that causes depression. Brain stimulation therapy can help people who have severe depression or depression with psychosis.\n"
+              "Although depression can be quite serious, it can also be managed. Spending time with friends and family, getting regular exercise, and getting adequate sleep can all be beneficial. Antidepressants can aid in altering the depressive brain chemistry. People with severe depression or depression coupled with psychosis may benefit from brain stimulation therapy.\n"
           ]
       },
       {
@@ -174,7 +175,7 @@
 
           ],
           "responses": [
-              "Bipolar disorder (formerly known as manic-depressive illness or manic depression) is a lifelong mood disorder and mental health condition. It causes intense shifts in mood, energy levels, thinking patterns and behavior. These shifts can last for hours, days, weeks or months and interrupt your ability to carry out day-to-day tasks.\n"
+              "A mental health issue and lifelong mood illness called bipolar disorder. It produces drastic changes in mood, energy, thought processes, and behaviour. These shifts interfere with your ability to complete daily duties and can persist for a few minutes or several days, weeks, or even months.\n"
           ]
       },
       {
@@ -187,7 +188,7 @@
 
           ],
           "responses": [
-              "There are several types of bipolar and related disorders. They may include mania or hypomania and depression. Bipolar disorder can occur at any age, but typically it's diagnosed in the teen years or early 20s. Symptoms can vary from person to person, and symptoms may vary over time.\n"
+              "Bipolar disorder and its related disorders come in a variety of forms. Depression and mania or hypomania may be among them. Although bipolar disorder can develop at any age, it is commonly identified in adolescence or the early 20s. Symptoms might change over time and from one person to the next.\n"
           ]
       },
       {
@@ -199,7 +200,7 @@
 
           ],
           "responses": [
-              "Bipolar disorder is a lifelong condition. Treatment is directed at managing symptoms. The primary treatments for bipolar disorder include medications and psychological counseling. If you have problems with alcohol or drugs, you'll also need substance abuse treatment. Getting psychiatric treatment at a hospital can help keep you calm and safe.\n"
+              "Bipolar disorder is a chronic illness. The goal of treatment is to control symptoms. The two main forms of treatment for bipolar disorder are drugs and therapy. You will also require substance addiction treatment if you struggle with alcohol or drug abuse. You can stay calm and safe by receiving mental care at a hospital.\n"
           ]
       },
       {
@@ -212,7 +213,7 @@
 
           ],
           "responses": [
-              "Post-traumatic stress disorder (PTSD) is a mental health condition that's triggered by a terrifying event. Symptoms may include flashbacks, nightmares and severe anxiety. Getting effective treatment after PTSD symptoms develop can be critical to reduce symptoms and improve function. If symptoms get worse, last for months or even years, you may have PTSD.\n"
+              "A distressing experience might cause post-traumatic stress disorder (PTSD), a condition that affects mental health. Flashbacks, nightmares, and extreme anxiety are possible symptoms. It can be crucial to seek appropriate treatment after developing PTSD symptoms in order to lessen symptoms and enhance function. You may have PTSD if your symptoms worsen over time and persist for months or even years.\n"
           ]
       },
       {
@@ -226,7 +227,7 @@
 
           ],
           "responses": [
-              "Post-traumatic stress disorder (PTSD) can cause significant problems in social or work situations and in relationships. Symptoms are generally grouped into four types: intrusive memories, avoidance, negative changes in thinking and mood, and changes in physical and emotional reactions. Symptoms can vary over time or vary from person to person.\n"
+              "Relationships, workplace settings, and social events can all be significantly impacted by post-traumatic stress disorder (PTSD). The four main categories of symptoms include intrusive memories, avoidance, negative changes in thought and mood, and adjustments in physical and emotional responses. The severity of symptoms can change over time or from person to person.\n"
           ]
       },
       {
@@ -239,7 +240,7 @@
 
           ],
           "responses": [
-              "Treating Post-traumatic stress disorder (PTSD) can help you regain a sense of control over your life. The primary treatment is psychotherapy, but can also include medication. Combining these treatments can help improve your symptoms by teaching you skills to address your symptoms. Psychologists can help you develop coping skills to help you better handle stressful situations and cope with stress in your life. Individual therapy, group therapy or combination of these approaches can help improve symptoms of post-traumatic stress disorder (PTSD). Medications can help relieve symptoms of depression and anxiety as well as improve sleep and concentration.\n"
+              "You can restore control over your life by getting treatment for post-traumatic stress disorder (PTSD). Although medicines may also be used, psychotherapy is the main form of treatment. Psychologists work with you to build coping mechanisms so you may better manage stressful events. Medication can help with depression and anxiety symptoms, as well as with sleep and focus issues.\n"
           ]
       },
       {
@@ -251,7 +252,7 @@
 
           ],
           "responses": [
-              "You can't always tell by someone's appearance that they have an eating disorder. Eating disorders affect the way people think about food, which is not reflected in their weight or size. Specific symptoms of eating disorders vary by type and may include mood swings and hair loss.\n"
+              "It's not always possible to identify if someone has an eating disorder based solely on appearance. Eating disorders alter a person's relationship with food, which is unrelated to their size or weight. Depending on the type, eating disorders can cause mood changes and hair loss.\n"
           ]
       },
       {
@@ -264,7 +265,7 @@
 
           ],
           "responses": [
-              "Even if you don't have an eating disorder, an expert can help you address food-related issues. Treatments for eating disorders vary depending on the type and your specific needs. Mental health professionals can determine the best psychotherapy for your situation. Registered dietitian with training in eating disorders can help improve eating habits.\n"
+              "Professionals in mental health can choose the most appropriate psychotherapy for you. An expert can assist you in addressing food-related problems even if you don't have an eating disorder. A registered dietician with experience treating eating disorders can assist in enhancing eating patterns.\n"
           ]
       },
       {
@@ -279,7 +280,7 @@
 
           ],
           "responses": [
-              "Borderline personality disorder affects the way you think and feel about yourself. It causes self-image issues, difficulty managing emotions and behavior, and a pattern of unstable relationships. With borderline personality disorder, you have an intense fear of abandonment or instability. Many people with this disorder get better with treatment and can learn to live satisfying lives."
+              "Your thoughts and feelings about yourself are affected by borderline personality disorder. It results in poor self-esteem, trouble controlling emotions and conduct, and a history of shaky relationships. You experience a severe fear of instability or abandonment if you have borderline personality disorder. Treatment helps many persons with this disease get well and learn how to lead fulfilling lives."
           ]
       },
       {
@@ -292,7 +293,7 @@
 
           ],
           "responses": [
-              "Borderline personality disorder affects how you feel about yourself and how you relate to others. It can cause rapid changes in self-identity and self-image that include shifting goals and values, and seeing yourself as bad or as if you don't exist at all. Mood swings can include intense happiness, irritability, shame or anxiety.\n"
+              "Your self-perception and interpersonal interactions are impacted by borderline personality disorder. It can lead to sudden shifts in objectives and values, as well as feelings of self-hatred or nonexistence. It can also produce abrupt changes in self-identity and self-image. Extreme happiness, irritation, humiliation, or anxiety are examples of mood swings.\n"
           ]
       },
       {
@@ -304,7 +305,7 @@
               "Is Psychosis real?"
           ],
           "responses": [
-              "Psychosis is disconnection from reality. People may have false beliefs or experience things that aren't real. Hallucinations are when parts of your brain mistakenly act like they would if your senses picked up on something actually happening. Delusions of control are false beliefs that someone is controlling your thoughts or actions remotely.\n"
+              "Being detached from reality is psychosis. It's possible for people to hold untrue beliefs or have unreal experiences. Hallucinations occur when some areas of the brain wrongly behave as though something is actually happening as detected by the senses. The idea that someone is remotely controlling your thoughts or behaviour is known as a delusion of control.\n"
           ]
       },
       {
@@ -322,7 +323,7 @@
 
           ],
           "responses": [
-              "People with psychosis are often unaware that their delusions or hallucinations are not real, which may lead them to feel frightened or distressed. There are 3 main symptoms associated with psychosis - hallucinations, delusions, and disturbing thoughts. Signs of psychosis include: rapid and constant speech; sudden loss in the train of thought; an abrupt pause in the conversation; and a taste when there is nothing in the mouth.\n"
+              "Because they frequently don't realise that their delusions or hallucinations are false, people with psychosis may experience fear or anguish. Hallucinations, delusions, and unsettling thoughts are the three basic symptoms of psychosis. Rapid and continuous speech, a sudden loss of the thinking process, and an abrupt break in the dialogue are all indications of psychosis.\n"
           ]
       },
       {
@@ -336,7 +337,7 @@
 
           ],
           "responses": [
-              "The treatment of psychosis depends mainly on the underlying cause. For psychosis that needs direct treatment, there are several approaches. Antipsychotic drugs are the most common type of medication to treat psychosis. Inpatient treatment in a hospital or specialist facility is sometimes necessary. Many people experience psychosis because of alcohol or substance use disorders and personality disorders."
+              "The most popular kind of medication used to treat psychosis is an antipsychotic. Sometimes it's important to receive inpatient care at a hospital or other specialised institution. Alcohol or substance use disorders, as well as personality issues, are common causes of psychosis. "
           ]
       },
       {
@@ -349,7 +350,7 @@
 
           ],
           "responses": [
-              "Paranoid is the feeling that you're being threatened in some way, such as people watching you or acting against you. Clinical paranoia is more severe. It's a rare mental health condition in which you believe that others are unfair, lying, or actively trying to harm you when there's no proof.\n"
+              "When you feel paranoid, you may believe that you are being watched or that someone is trying to harm you. More extreme paranoia is clinical. It's a rare mental health problem where you assume the worst about people even when there is no evidence to support it.\n"
           ]
       },
       {
@@ -366,7 +367,7 @@
 
           ],
           "responses": [
-              "The symptoms of paranoia can include: Being easily offended, believing you are always right and having trouble relaxing or letting your guard down. Not being able to compromise, forgive, or accept criticism or accept constructive criticism.\n"
+              "Being easily offended, thinking you're always right, and finding it difficult to unwind or let your guard down are some signs of paranoia. incapable of making concessions, forgiving others, or taking criticism—even good criticism—into account.\n"
           ]
       },
       {
@@ -380,7 +381,7 @@
 
           ],
           "responses": [
-              "If you have paranoid or irrational thoughts that get in the way of doing things you want to do, talk to a social worker, psychologist, or psychiatrist. Eating a balanced diet, exercis,ing and getting plenty of sleep can help keep paranoid thoughts at bay. If you don't have a mental illness, talk therapy or some kind of medication could help you feel better.\n"
+              "Speak to a social professional if your irrational or paranoid ideas are preventing you from achieving your goals. A balanced diet, regular exercise, and adequate rest can help stave against paranoid thoughts. Even if you don't have a mental condition, you might feel better with talk therapy or a drug.\n"
           ]
       },
       {
@@ -393,7 +394,7 @@
 
           ],
           "responses": [
-              "During a panic attack, you get a rush of intense mental and physical symptoms. It can come on very quickly and for no apparent reason. Most panic attacks last between 5 and 20 minutes. Some people have attacks once or twice a month, while others have them several times a week.\n"
+              "You experience an acute flood of mental and physical symptoms during a panic attack. It can strike suddenly and seemingly out of the blue. The majority of panic attacks last five to twenty minutes. While some people only experience attacks once or twice a month, others do so frequently.\n"
           ]
       },
       {
@@ -407,7 +408,7 @@
 
           ],
           "responses": [
-              "If you see someone having a panic attack, calm them right away and ask them what you can do to help. If they've had multiple panic attacks, see a doctor right away. Panic attacks can lead to depression, agoraphobia (fear of public places) or substance abuse.\n"
+              "As soon as you notice someone experiencing a panic attack, calm them down and find out what you can do to help. See a doctor straight away if they have experienced several panic attacks. Depression, agoraphobia (fear of public places), or substance abuse can result from panic episodes.\n"
           ]
       },
       {
@@ -420,7 +421,7 @@
 
           ],
           "responses": [
-              "Obsessive-compulsive disorder (OCD) is a mental illness that causes repeated unwanted thoughts or sensations (obsessions) or the urge to do something over and over again (compulsions). People with OCD have thoughts or actions that: Take up at least an hour a day, Aren't enjoyable, Interfere with work, your social life, or another part of life and Are beyond your control.\n"
+              "OCD is a type of mental condition that results in recurrent, unwelcome thoughts or sensations (obsessions). People with OCD have thoughts or behaviours that: consume at least an hour of their time each day; are not pleasurable; interfere with their ability to work or interact with others; or are uncontrollable.\n"
           ]
       },
       {
@@ -437,7 +438,7 @@
 
           ],
           "responses": [
-              "If you have OCD you may have repetitive thoughts or worries that aren't rational and you may feel the need to repeat the same thing over, and over again. Only a psychologist or psychiatrist can diagnose OCD, but it can occur in any person at any stage of life.\n"
+              "If you have OCD, you might have unfounded recurring fears or thoughts and feel compelled to repeat the same action repeatedly. OCD can affect anyone at any stage of life, but it can only be diagnosed by a psychologist or psychiatrist.\n"
           ]
       },
       {
@@ -451,7 +452,7 @@
 
           ],
           "responses": [
-              "There's no cure for OCD, but you may be able to manage how your symptoms affect your life through medicine, therapy, or a combination of treatments. Cognitive behavioral therapy can help change your thinking patterns. Magnetic fields are FDA-approved for OCD treatment. Deep brain stimulation involves electrodes being implanted in your head.\n"
+              "The symptoms of OCD cannot be cured, but you may be able to control them by medication, therapy, or a combination of therapies. Your thought patterns may be changed with cognitive behavioural therapy. FDA-approved magnetic fields are used to treat OCD. The process of deep brain stimulation involves implanting electrodes in your brain.\n"
           ]
       },
       {
