@@ -35,6 +35,7 @@ class ChatApplication:
                 self.msg_entry.delete(0, END)
                 self.msg_entry.insert(0,query)
                 self._insert_user_message(query, "You")
+                self._insert_bot_message(query)
             except Exception as e:
                 print(e)
                 print("Not Recognised")
