@@ -3,6 +3,7 @@ from chat import get_response, bot_name
 import pyttsx3 as pp
 import speech_recognition as sr
 import threading
+import sys
 import time
 
 BG_GRAY = "#ABB2B9"
@@ -35,6 +36,7 @@ class ChatApplication:
                 self.msg_entry.delete(0, END)
                 self.msg_entry.insert(0,query)
                 self._insert_user_message(query, "You")
+                self._insert_bot_message(query)
             except Exception as e:
                 print(e)
                 print("Not Recognised")
@@ -52,7 +54,7 @@ class ChatApplication:
     def repeatL(self,stop):
             while True:
                 self.takeQuery()
-                if stop():
+                if stop:
                     break
 
     def _setup_main_window(self):
